@@ -14,9 +14,12 @@ Description: Gabarit de base permettant d'importer les fichiers SCSS
 body {
   background-color: white;
   font-family: 'Montserrat';
+  font-size: 0.4em;
 }
 
 body header {
+  border: 3px solid aliceblue;
+  margin: 5px;
   text-align: center;
 }
 
@@ -180,5 +183,17 @@ body .Creation_Video2 {
 body div {
   text-align: center;
   border: 3px solid aliceblue;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 0.8em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

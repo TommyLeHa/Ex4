@@ -1,8 +1,11 @@
 body{
     background-color: white;
     font-family: 'Montserrat';
+    font-size: 0.4em;
 
     header {
+        border: 3px solid aliceblue;
+        margin: 5px;
         text-align: center;
     }
 
@@ -120,4 +123,10 @@ body{
         border: 3px solid aliceblue;
     }
     
+    @media screen and (min-width:768px) {
+     font-size: 0.6em;
+    }
+    @media screen and (min-width:992px) {
+     font-size: 0.8em;   
+    }
 }
