@@ -1,8 +1,8 @@
-@charset "UTF-8";
 /*!
 Auteur: Tommy Le Ha
 Description: Gabarit de base permettant d'importer les fichiers SCSS
 */
+
 /*--------------------------------------------------------------
 >>> LISTE DES FICHIERS SCSS IMPORTÉS 
 ----------------------------------------------------------------
@@ -11,4 +11,4 @@ Description: Gabarit de base permettant d'importer les fichiers SCSS
 ----------------------------------------------------------------
 # Horaire
 --------------------------------------------------------------*/
-/*# sourceMappingURL=style.css.map */
+@import "_horaire.scss";
