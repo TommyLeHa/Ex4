@@ -12,7 +12,7 @@ Description: Gabarit de base permettant d'importer les fichiers SCSS
 # Horaire
 --------------------------------------------------------------*/
 body {
-  background-color: azure;
+  background-color: white;
   font-family: 'Montserrat';
 }
 
@@ -30,14 +30,20 @@ body .horaire {
       grid-template-columns: 5% 19% 19% 19% 19% 19%;
   -ms-grid-rows: 9% auto;
       grid-template-rows: 9% auto;
-  border: 2px solid darkcyan;
+  border: 3px solid aliceblue;
+}
+
+body .horaire > div {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .huit {
   -ms-grid-column: 1;
   grid-column: 1;
-  -ms-grid-row: 2;
-  grid-row: 2;
 }
 
 body .neuf {
@@ -90,8 +96,89 @@ body .dix-huit {
   grid-column: 1;
 }
 
+body .Projet_etudes {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 6;
+  grid-row: 7/13;
+  background-color: #a0f169;
+}
+
+body .Projet_etudes2 {
+  -ms-grid-column: 5;
+  grid-column: 5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  grid-row: 2/6;
+  background-color: #a0f169;
+}
+
+body .Activités_communes {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 3;
+  grid-row: 6/9;
+  background-color: aquamarine;
+}
+
+body .Activités_communes2 {
+  -ms-grid-column: 5;
+  grid-column: 5;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 3;
+  grid-row: 6/9;
+  background-color: aquamarine;
+}
+
+body .Programmation_veille {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 4;
+  grid-row: 9/13;
+  background-color: #f0fa6b;
+}
+
+body .Programmation_veille2 {
+  -ms-grid-column: 5;
+  grid-column: 5;
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 4;
+  grid-row: 9/13;
+  background-color: #f0fa6b;
+}
+
+body .Stage {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 2;
+  grid-row: 5/7;
+  background-color: #fc6449;
+}
+
+body .Creation_Video {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 4;
+  grid-row: 7/11;
+  background-color: #447af0;
+}
+
+body .Creation_Video2 {
+  -ms-grid-column: 6;
+  grid-column: 6;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 4;
+  grid-row: 7/11;
+  background-color: #447af0;
+}
+
 body div {
-  border: 2px solid darkcyan;
   text-align: center;
+  border: 3px solid aliceblue;
 }
 /*# sourceMappingURL=style.css.map */

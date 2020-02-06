@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    background-color: white;
     font-family: 'Montserrat';
 
     header {
@@ -13,47 +13,111 @@ body{
         margin: 0 10%;
         grid-template-columns: 5% 19% 19% 19% 19% 19%;
         grid-template-rows: 9% auto;
-        border: 2px solid darkcyan;
+        border: 3px solid aliceblue;
+    }
+    .horaire>div{
+      display: grid;
+      align-items: center;
+      
     }
     .huit{
         grid-column: 1;
-        grid-row: 2;
+        
     }
     .neuf{
         grid-column: 1;
+        
     }
     .dix{
         grid-column: 1;
+       
     }
 
     .onze{
         grid-column: 1;
+        
     }
     .douze{
         grid-column: 1;
+        
     }
     .treize{
         grid-column: 1;
+
     }
     .quatorze{
         grid-column: 1;
+        
     }
     .quinze{
         grid-column: 1;
+        
     }
     .seize{
         grid-column: 1;
+        
     }
     .dix-sept{
         grid-column: 1;
+        
     }
     .dix-huit{
         grid-column: 1;
+        
+    }
+    
+    .Projet_etudes{
+        grid-column: 2;
+        grid-row: 7/13;
+        background-color: rgb(160, 241, 105);
+    }
+    
+    .Projet_etudes2{
+        grid-column: 5;
+        grid-row: 2/6;
+        background-color: rgb(160, 241, 105);
     }
 
+    .Activités_communes{
+        grid-column: 3;
+        grid-row:6/9;
+        background-color: aquamarine;
+    }
+
+    .Activités_communes2{
+        grid-column: 5;
+        grid-row:6/9;
+        background-color: aquamarine;
+    }
+
+    .Programmation_veille{
+        grid-column: 3;
+        grid-row:9/13;
+        background-color: rgb(240, 250, 107);
+    }
+    .Programmation_veille2{
+        grid-column: 5;
+        grid-row:9/13;
+        background-color: rgb(240, 250, 107);
+    }
+    .Stage{
+        grid-column: 4;
+        grid-row: 5/7;
+        background-color: rgb(252, 100, 73);
+    }
+    .Creation_Video{
+        grid-column: 4;
+        grid-row: 7/11;
+        background-color: rgb(68, 122, 240);
+    }
+    .Creation_Video2{
+        grid-column: 6;
+        grid-row: 7/11;
+        background-color: rgb(68, 122, 240);
+    }
     div{
-        border: 2px solid darkcyan;
         text-align: center;
+        border: 3px solid aliceblue;
     }
     
 }
