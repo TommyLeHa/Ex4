@@ -16,23 +16,82 @@ body {
   font-family: 'Montserrat';
 }
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+body header {
+  text-align: center;
 }
 
-h1, h2, h3 {
-  margin: 0 auto;
+body .horaire {
+  display: -ms-grid;
+  display: grid;
+  height: 80vh;
+  width: 80%;
+  margin: 0 10%;
+  -ms-grid-columns: 5% 19% 19% 19% 19% 19%;
+      grid-template-columns: 5% 19% 19% 19% 19% 19%;
+  -ms-grid-rows: 9% auto;
+      grid-template-rows: 9% auto;
+  border: 2px solid darkcyan;
+}
+
+body .huit {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+body .neuf {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body .dix {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body .onze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body .douze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body .treize {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body .quatorze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body .quinze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body .seize {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body .dix-sept {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body .dix-huit {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+body div {
+  border: 2px solid darkcyan;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

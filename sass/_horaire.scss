@@ -1,16 +1,59 @@
 body{
     background-color: azure;
     font-family: 'Montserrat';
-    
-    header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    h1,h2,h3{
-        margin: 0 auto;
-    }
-}
 
+    header {
+        text-align: center;
+    }
+
+    .horaire {
+        display: grid;
+        height: 80vh;
+        width: 80%;
+        margin: 0 10%;
+        grid-template-columns: 5% 19% 19% 19% 19% 19%;
+        grid-template-rows: 9% auto;
+        border: 2px solid darkcyan;
+    }
+    .huit{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .neuf{
+        grid-column: 1;
+    }
+    .dix{
+        grid-column: 1;
+    }
+
+    .onze{
+        grid-column: 1;
+    }
+    .douze{
+        grid-column: 1;
+    }
+    .treize{
+        grid-column: 1;
+    }
+    .quatorze{
+        grid-column: 1;
+    }
+    .quinze{
+        grid-column: 1;
+    }
+    .seize{
+        grid-column: 1;
+    }
+    .dix-sept{
+        grid-column: 1;
+    }
+    .dix-huit{
+        grid-column: 1;
+    }
+
+    div{
+        border: 2px solid darkcyan;
+        text-align: center;
+    }
+    
 }
